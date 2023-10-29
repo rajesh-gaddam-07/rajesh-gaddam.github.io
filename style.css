@@ -1,0 +1,59 @@
+/* Reset some default styles and set a background color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the name */
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the job title */
+header p {
+    font-size: 18px;
+}
+
+/* Style the projects section */
+#projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Style project headings */
+#projects h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+/* Style project descriptions */
+#projects p {
+    font-size: 16px;
+}
+
+/* Add a little space between paragraphs and lists */
+p, ul {
+    margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
